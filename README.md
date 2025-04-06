@@ -1,37 +1,57 @@
-# 🔍 Mini Vulnerability Port Scanner
+# 🔍 mini-vuln-scanner
 
-A simple and lightweight port scanner tool written in Python. It helps you detect open ports on a target domain or IP address.
+A simple Python-based **port scanner tool** to identify open ports on a target machine.
 
 ---
 
-## 🚀 How to Use
+## 🚀 Features
 
-1. Clone the repo or download the code.
-2. Open a terminal and run:
+- Scan for open ports on a target IP
+- Supports custom port range
+- Lightweight and beginner-friendly
+- Easy to extend for vulnerability scanning
 
-```bash
-python scanner.py
+---
 
-2.Enter your target domain/IP like:
+## 📁 Project Structure
 
-![alt text](image.png)
+2️⃣ Run the script
 
-3.It will scan common ports like 21, 80, 443, 8080 etc.
+![image](https://github.com/user-attachments/assets/d0a1ce48-48fa-47e8-8697-1adb8f8249a3)
 
-🛠️ Features
-✅ URL cleanup (removes http://, https://, and trailing /)
 
-🔍 Scans a list of common ports
+📸 Screenshot
 
-⚡ Fast scanning using socket with timeout
+![image](https://github.com/user-attachments/assets/335c5c61-dd39-4231-9616-f8c9bacd3f72)
 
-📦 No external libraries required (uses built-in socket module)
 
-📁 Files
-scanner.py — Main script for scanning
 
-⚠️ Disclaimer
-This tool is made for educational purposes only.
-Please do not scan websites or servers you don't own or have permission to test.
+
+
+
+
+🧠 How It Works
+Uses Python's built-in socket module.
+
+Loops through a range of ports and attempts to connect.
+
+Prints out all open ports.
+
+🛠️ Requirements
+Just Python 😄
+Make sure you're using Python 3.x
+
+✨ Future Ideas
+Add service/version detection
+
+Export scan results to file
+
+Add multi-threading for faster scanning
+
+Integrate basic vulnerability checks
+
+🧑‍💻 Author
+Sunny Mishra
+GitHub Profile
 
 
